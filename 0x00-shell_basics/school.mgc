@@ -1,1 +1,1 @@
-0 string SCHOOL School data file
+file * | grep -v directory | awk '{print $1,":",$2}'
