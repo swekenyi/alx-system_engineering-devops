@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Use awk to parse the Apache log file and print IP and HTTP status code
+awk '{print $1, $9}' apache-access.log
